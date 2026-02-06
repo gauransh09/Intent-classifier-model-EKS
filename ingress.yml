@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-    - host: <your-domain-or-elb-dns>
+    - host: example.com
       http:
         paths:
           - path: /predict
